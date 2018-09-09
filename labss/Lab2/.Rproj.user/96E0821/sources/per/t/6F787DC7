@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1536358625529.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2426578735",
+    "id" : "6F787DC7",
+    "lastKnownWriteTime" : 1536383224,
+    "last_content_update" : 1536383224,
+    "path" : "~/Desktop/142/labs/Lab2/Lab2_part1.R",
+    "project_path" : "Lab2_part1.R",
+    "properties" : {
+        "cursorPosition" : "61,0",
+        "scrollLine" : "49"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,129 @@
+]0;~/Desktop/142/labs/Lab 2[?1034hMacBookPro: wilsonwang~/Desktop/142/labs/Lab 2 $ cd ..
+]0;~/Desktop/142/labsMacBookPro: wilsonwang~/Desktop/142/labs $ ls
+Lab 2		Lab1		labs.Rproj
+]0;~/Desktop/142/labsMacBookPro: wilsonwang~/Desktop/142/labs $ git inti[K[Kit
+Initialized empty Git repository in /Users/wilsonwang/Desktop/142/labs/.git/
+]0;~/Desktop/142/labsMacBookPro: wilsonwang~/Desktop/142/labs $ git [K[K[K[Kgit commit -m ""l"a"b" "1" "f"i"n"
+On branch master
+
+Initial commit
+
+Untracked files:
+	[31m.DS_Store[m
+	[31m.Rhistory[m
+	[31m.Rproj.user/[m
+	[31mLab 2/[m
+	[31mLab1/[m
+	[31mlabs.Rproj[m
+
+nothing added to commit but untracked files present
+]0;~/Desktop/142/labsMacBookPro: wilsonwang~/Desktop/142/labs $ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.DS_Store[m
+	[31m.Rhistory[m
+	[31m.Rproj.user/[m
+	[31mLab 2/[m
+	[31mLab1/[m
+	[31mlabs.Rproj[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;~/Desktop/142/labsMacBookPro: wilsonwang~/Desktop/142/labs $ git[K[K[Ktouch .gitignore
+]0;~/Desktop/142/labsMacBookPro: wilsonwang~/Desktop/142/labs $ open .gitignore 
+]0;~/Desktop/142/labsMacBookPro: wilsonwang~/Desktop/142/labs $ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.Rhistory[m
+	[31m.Rproj.user/[m
+	[31m.gitignore[m
+	[31mLab 2/[m
+	[31mLab1/[m
+	[31mlabs.Rproj[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;~/Desktop/142/labsMacBookPro: wilsonwang~/Desktop/142/labs $ git ac -m ""l"a"b" "1"
+[master (root-commit) 17fc247] lab 1
+ 50 files changed, 18230 insertions(+)
+ create mode 100644 .Rhistory
+ create mode 100644 .Rproj.user/96E0821/console06/INDEX001
+ create mode 100644 .Rproj.user/96E0821/pcs/files-pane.pper
+ create mode 100644 .Rproj.user/96E0821/pcs/source-pane.pper
+ create mode 100644 .Rproj.user/96E0821/pcs/windowlayoutstate.pper
+ create mode 100644 .Rproj.user/96E0821/pcs/workbench-pane.pper
+ create mode 100644 .Rproj.user/96E0821/rmd-outputs
+ create mode 100644 .Rproj.user/96E0821/saved_source_markers
+ create mode 100644 .Rproj.user/96E0821/sources/per/t/5D09EF69
+ create mode 100644 .Rproj.user/96E0821/sources/per/t/5D09EF69-contents
+ create mode 100644 .Rproj.user/96E0821/sources/per/t/94EFB946
+ create mode 100644 .Rproj.user/96E0821/sources/per/t/94EFB946-contents
+ create mode 100644 .Rproj.user/96E0821/sources/per/t/E9F3BFEC
+ create mode 100644 .Rproj.user/96E0821/sources/per/t/E9F3BFEC-contents
+ create mode 100644 .Rproj.user/96E0821/sources/prop/4940E8E9
+ create mode 100644 .Rproj.user/96E0821/sources/prop/CEB62475
+ create mode 100644 .Rproj.user/96E0821/sources/prop/D8C65E2D
+ create mode 100644 .Rproj.user/96E0821/sources/prop/INDEX
+ create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names
+ create mode 100644 .gitignore
+ create mode 100644 Lab 2/.Rhistory
+ create mode 100644 Lab 2/.Rproj.user/96E0821/console06/20D421CE
+ create mode 100644 Lab 2/.Rproj.user/96E0821/console06/20D421CE.env
+ create mode 100644 Lab 2/.Rproj.user/96E0821/console06/INDEX001
+ create mode 100644 Lab 2/.Rproj.user/96E0821/pcs/files-pane.pper
+ create mode 100644 Lab 2/.Rproj.user/96E0821/pcs/source-pane.pper
+ create mode 100644 Lab 2/.Rproj.user/96E0821/pcs/windowlayoutstate.pper
+ create mode 100644 Lab 2/.Rproj.user/96E0821/pcs/workbench-pane.pper
+ create mode 100644 Lab 2/.Rproj.user/96E0821/rmd-outputs
+ create mode 100644 Lab 2/.Rproj.user/96E0821/saved_source_markers
+ create mode 100644 Lab 2/.Rproj.user/96E0821/sources/prop/272B3C
+ create mode 100644 Lab 2/.Rproj.user/96E0821/sources/prop/INDEX
+ create mode 100644 Lab 2/.Rproj.user/96E0821/sources/s-D5BC6775/6F787DC7
+ create mode 100644 Lab 2/.Rproj.user/96E0821/sources/s-D5BC6775/6F787DC7-contents
+ create mode 100644 Lab 2/.Rproj.user/96E0821/sources/s-D5BC6775/lock_file
+ create mode 100644 Lab 2/.Rproj.user/shared/notebooks/patch-chunk-names
+ create mode 100644 Lab 2/Lab 2.Rproj
+ create mode 100644 Lab 2/Lab2_part1.R
+ create mode 100644 Lab 2/Lab2_part2.R
+ create mode 100644 Lab 2/customerchurn.csv
+ create mode 100644 Lab 2/loans.csv
+ create mode 100644 Lab1/.RData
+ create mode 100644 Lab1/.Rhistory
+ create mode 100644 Lab1/Lab1.R
+ create mode 100644 Lab1/Lab1_part2.R
+ create mode 100644 Lab1/WHO.csv
+ create mode 100644 Lab1/WHO_AsiaEurope.csv
+ create mode 100644 Lab1/wine_agg.csv
+ create mode 100644 Lab1/wine_disagg.csv
+ create mode 100644 labs.Rproj
+]0;~/Desktop/142/labsMacBookPro: wilsonwang~/Desktop/142/labs $ git remote add origin https://github.com/wilson w926/ieor142.git
+]0;~/Desktop/142/labsMacBookPro: wilsonwang~/Desktop/142/labs $ git push -u origin master
+Counting objects: 58, done.
+Delta compression using up to 4 threads.
+Compressing objects:   2% (1/46)   Compressing objects:   4% (2/46)   Compressing objects:   6% (3/46)   Compressing objects:   8% (4/46)   Compressing objects:  10% (5/46)   Compressing objects:  13% (6/46)   Compressing objects:  15% (7/46)   Compressing objects:  17% (8/46)   Compressing objects:  19% (9/46)   Compressing objects:  21% (10/46)   Compressing objects:  23% (11/46)   Compressing objects:  26% (12/46)   Compressing objects:  28% (13/46)   Compressing objects:  30% (14/46)   Compressing objects:  32% (15/46)   Compressing objects:  34% (16/46)   Compressing objects:  36% (17/46)   Compressing objects:  39% (18/46)   Compressing objects:  41% (19/46)   Compressing objects:  43% (20/46)   Compressing objects:  45% (21/46)   Compressing objects:  47% (22/46)   Compressing objects:  50% (23/46)   Compressing objects:  52% (24/46)   Compressing objects:  54% (25/46)   Compressing objects:  56% (26/46)   Compressing objects:  58% (27/46)   Compressing objects:  60% (28/46)   Compressing objects:  63% (29/46)   Compressing objects:  65% (30/46)   Compressing objects:  67% (31/46)   Compressing objects:  69% (32/46)   Compressing objects:  71% (33/46)   Compressing objects:  73% (34/46)   Compressing objects:  76% (35/46)   Compressing objects:  78% (36/46)   Compressing objects:  80% (37/46)   Compressing objects:  82% (38/46)   Compressing objects:  84% (39/46)   Compressing objects:  86% (40/46)   Compressing objects:  89% (41/46)   Compressing objects:  91% (42/46)   Compressing objects:  93% (43/46)   Compressing objects:  95% (44/46)   Compressing objects:  97% (45/46)   Compressing objects: 100% (46/46)   Compressing objects: 100% (46/46), done.
+Writing objects:   1% (1/58)   Writing objects:   3% (2/58)   Writing objects:   5% (3/58)   Writing objects:   6% (4/58)   Writing objects:   8% (5/58)   Writing objects:  10% (6/58)   Writing objects:  12% (7/58)   Writing objects:  13% (8/58)   Writing objects:  15% (9/58)   Writing objects:  17% (10/58)   Writing objects:  18% (11/58)   Writing objects:  20% (12/58)   Writing objects:  22% (13/58)   Writing objects:  24% (14/58)   Writing objects:  25% (15/58)   Writing objects:  27% (16/58)   Writing objects:  29% (17/58)   Writing objects:  32% (19/58)   Writing objects:  34% (20/58)   Writing objects:  36% (21/58)   Writing objects:  37% (22/58)   Writing objects:  39% (23/58)   Writing objects:  41% (24/58)   Writing objects:  43% (25/58)   Writing objects:  44% (26/58)   Writing objects:  46% (27/58)   Writing objects:  48% (28/58)   Writing objects:  50% (29/58)   Writing objects:  51% (30/58)   Writing objects:  53% (31/58)   Writing objects:  55% (32/58)   Writing objects:  56% (33/58)   Writing objects:  58% (34/58)   Writing objects:  60% (35/58)   Writing objects:  62% (36/58)   Writing objects:  63% (37/58)   Writing objects:  65% (38/58)   Writing objects:  67% (39/58)   Writing objects:  68% (40/58)   Writing objects:  70% (41/58)   Writing objects:  72% (42/58)   Writing objects:  74% (43/58)   Writing objects:  75% (44/58)   Writing objects:  77% (45/58)   Writing objects:  79% (46/58)   Writing objects:  81% (47/58)   Writing objects:  82% (48/58)   Writing objects:  84% (49/58)   Writing objects:  86% (50/58)   Writing objects:  87% (51/58)   Writing objects:  89% (52/58)   Writing objects:  91% (53/58)   Writing objects:  93% (54/58)   Writing objects:  94% (55/58)   Writing objects:  96% (56/58)   Writing objects:  98% (57/58)   Writing objects: 100% (58/58)   Writing objects: 100% (58/58), 194.94 KiB | 0 bytes/s, done.
+Total 58 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/3)   [Kremote: Resolving deltas:  33% (1/3)   [Kremote: Resolving deltas: 100% (3/3)   [Kremote: Resolving deltas: 100% (3/3), done.[K
+To https://github.com/wilsonw926/ieor142.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+]0;~/Desktop/142/labsMacBookPro: wilsonwang~/Desktop/142/labs $ cd labs.Rproj [K[K[K[K[K[K[K[K[K[K[K[K[K[Kls
+Lab 2		Lab1		labs.Rproj
+]0;~/Desktop/142/labsMacBookPro: wilsonwang~/Desktop/142/labs $ cd Lab2[K/[K\[K\[K
+Lab 2/ Lab1/  
+MacBookPro: wilsonwang~/Desktop/142/labs $ cd Lab
+Lab 2/ Lab1/  
+MacBookPro: wilsonwang~/Desktop/142/labs $ cd Lab 2
+bash: cd: Lab: No such file or directory
+]0;~/Desktop/142/labsMacBookPro: wilsonwang~/Desktop/142/labs $ cd Lab 2/
+bash: cd: Lab: No such file or directory
+]0;~/Desktop/142/labsMacBookPro: wilsonwang~/Desktop/142/labs $ open .
+]0;~/Desktop/142/labsMacBookPro: wilsonwang~/Desktop/142/labs $ 
