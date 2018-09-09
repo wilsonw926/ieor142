@@ -147,3 +147,65 @@ nothing added to commit but untracked files present (use "git add" to track)
 origin	https://github.com/wilsonw926/ieor142.git (fetch)
 origin	https://github.com/wilsonw926/ieor142.git (push)
 ]0;~/Desktop/142MacBookPro: wilsonwang~/Desktop/142 $ git comm[K[K[K[Kac -m ""r"e"p"u"s"h" "h"w" "t"o"o"
+[master (root-commit) 0a822c5] repush hw too
+ 28 files changed, 1052 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 hw/Homework1/.Rhistory
+ create mode 100644 hw/Homework1/.Rproj.user/96E0821/build_options
+ create mode 100644 hw/Homework1/.Rproj.user/96E0821/console06/B9F42CF9
+ create mode 100644 hw/Homework1/.Rproj.user/96E0821/console06/B9F42CF9.env
+ create mode 100644 hw/Homework1/.Rproj.user/96E0821/console06/INDEX001
+ create mode 100644 hw/Homework1/.Rproj.user/96E0821/pcs/files-pane.pper
+ create mode 100644 hw/Homework1/.Rproj.user/96E0821/pcs/source-pane.pper
+ create mode 100644 hw/Homework1/.Rproj.user/96E0821/pcs/windowlayoutstate.pper
+ create mode 100644 hw/Homework1/.Rproj.user/96E0821/pcs/workbench-pane.pper
+ create mode 100644 hw/Homework1/.Rproj.user/96E0821/rmd-outputs
+ create mode 100644 hw/Homework1/.Rproj.user/96E0821/saved_source_markers
+ create mode 100644 hw/Homework1/.Rproj.user/96E0821/sources/prop/32E18B76
+ create mode 100644 hw/Homework1/.Rproj.user/96E0821/sources/prop/94F5C4F8
+ create mode 100644 hw/Homework1/.Rproj.user/96E0821/sources/prop/DA0BB7A8
+ create mode 100644 hw/Homework1/.Rproj.user/96E0821/sources/prop/INDEX
+ create mode 100644 hw/Homework1/.Rproj.user/96E0821/sources/s-6D5B0584/2932B9A0-contents
+ create mode 100644 hw/Homework1/.Rproj.user/96E0821/sources/s-6D5B0584/EDDC2B32-contents
+ create mode 100644 hw/Homework1/.Rproj.user/96E0821/sources/s-6D5B0584/F061DAA8
+ create mode 100644 hw/Homework1/.Rproj.user/96E0821/sources/s-6D5B0584/F061DAA8-contents
+ create mode 100644 hw/Homework1/.Rproj.user/96E0821/sources/s-6D5B0584/lock_file
+ create mode 100644 hw/Homework1/.Rproj.user/shared/notebooks/patch-chunk-names
+ create mode 100644 hw/Homework1/.Rproj.user/shared/notebooks/paths
+ create mode 100644 hw/Homework1/Elantra142-Fall2018.csv
+ create mode 100644 hw/Homework1/Homework1.Rproj
+ create mode 100644 hw/Homework1/IEOR142-HW1-2018-v1.pdf
+ create mode 100644 hw/Homework1/hw1.R
+ create mode 160000 labs
+]0;~/Desktop/142MacBookPro: wilsonwang~/Desktop/142 $ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+]0;~/Desktop/142MacBookPro: wilsonwang~/Desktop/142 $ git push origin master
+To https://github.com/wilsonw926/ieor142.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/wilsonw926/ieor142.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+]0;~/Desktop/142MacBookPro: wilsonwang~/Desktop/142 $ git remote -v
+origin	https://github.com/wilsonw926/ieor142.git (fetch)
+origin	https://github.com/wilsonw926/ieor142.git (push)
+]0;~/Desktop/142MacBookPro: wilsonwang~/Desktop/142 $ git remote -v[K[Kadd origin https://github.com/wilsonw926/ ieor142.git
+fatal: remote origin already exists.
+]0;~/Desktop/142MacBookPro: wilsonwang~/Desktop/142 $ git satu[K[K[Ktatus
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+
+	[31mmodified:   hw/Homework1/.Rproj.user/96E0821/console06/B9F42CF9[m
+	[31mmodified:   labs[m (modified content, untracked content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/Desktop/142MacBookPro: wilsonwang~/Desktop/142 $ git ac -m ""p"u"s"h"
