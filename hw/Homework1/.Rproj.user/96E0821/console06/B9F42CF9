@@ -1,0 +1,149 @@
+]0;~/Desktop/142/hw/Homework1[?1034hMacBookPro: wilsonwang~/Desktop/142/hw/Homework1 $ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m../../../.gitignore[m
+	[31m../../../.idea/[m
+	[31m../../../.localized[m
+	[31m../../[m
+	[31m../../../Cracking the Coding Interview, 6th Edition 189 Programming Questions and Solutions.pdf[m
+	[31m../../../IEOR172/[m
+	[31m../../../InterviewPrep/[m
+	[31m../../../Schedule.png[m
+	[31m../../../Screen Shot 2018-08-07 at 4.38.55 PM.png[m
+	[31m../../../Screen Shot 2018-08-16 at 12.40.49 AM.png[m
+	[31m../../../Screen Shot 2018-08-19 at 11.48.49 PM.png[m
+	[31m../../../Screen Shot 2018-08-23 at 11.49.55 PM.png[m
+	[31m../../../Screen Shot 2018-08-25 at 7.35.21 PM.png[m
+	[31m../../../Screen Shot 2018-08-31 at 1.11.13 PM.png[m
+	[31m../../../Screen Shot 2018-08-31 at 1.11.20 PM.png[m
+	[31m../../../Screen Shot 2018-08-31 at 1.11.26 PM.png[m
+	[31m../../../Screen Shot 2018-08-31 at 1.11.34 PM.png[m
+	[31m../../../Screen Shot 2018-08-31 at 1.11.41 PM.png[m
+	[31m../../../Screen Shot 2018-09-03 at 11.21.30 AM.png[m
+	[31m../../../Screen Shot 2018-09-03 at 2.46.05 PM.png[m
+	[31m../../../Screen Shot 2018-09-04 at 8.27.53 PM.png[m
+	[31m../../../Screen Shot 2018-09-05 at 4.56.13 PM.png[m
+	[31m../../../Screen Shot 2018-09-08 at 3.35.37 PM.png[m
+	[31m../../../Screen Shot 2018-09-08 at 3.41.20 PM.png[m
+	[31m../../../cs186/[m
+	[31m../../../local3000fix.png[m
+	[31m../../../pics/[m
+	[31m../../../rake assets.png[m
+	[31m../../../reset heroku database.png[m
+	[31m../../../resumes/[m
+	[31m../../../vladstudio_moai_1280x960_signed-1024x768.jpg[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;~/Desktop/142/hw/Homework1MacBookPro: wilsonwang~/Desktop/142/hw/Homework1 $ cd ..
+]0;~/Desktop/142/hwMacBookPro: wilsonwang~/Desktop/142/hw $ cd ..
+]0;~/Desktop/142MacBookPro: wilsonwang~/Desktop/142 $ ls
+hw	labs
+]0;~/Desktop/142MacBookPro: wilsonwang~/Desktop/142 $ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m../.gitignore[m
+	[31m../.idea/[m
+	[31m../.localized[m
+	[31m./[m
+	[31m../Cracking the Coding Interview, 6th Edition 189 Programming Questions and Solutions.pdf[m
+	[31m../IEOR172/[m
+	[31m../InterviewPrep/[m
+	[31m../Schedule.png[m
+	[31m../Screen Shot 2018-08-07 at 4.38.55 PM.png[m
+	[31m../Screen Shot 2018-08-16 at 12.40.49 AM.png[m
+	[31m../Screen Shot 2018-08-19 at 11.48.49 PM.png[m
+	[31m../Screen Shot 2018-08-23 at 11.49.55 PM.png[m
+	[31m../Screen Shot 2018-08-25 at 7.35.21 PM.png[m
+	[31m../Screen Shot 2018-08-31 at 1.11.13 PM.png[m
+	[31m../Screen Shot 2018-08-31 at 1.11.20 PM.png[m
+	[31m../Screen Shot 2018-08-31 at 1.11.26 PM.png[m
+	[31m../Screen Shot 2018-08-31 at 1.11.34 PM.png[m
+	[31m../Screen Shot 2018-08-31 at 1.11.41 PM.png[m
+	[31m../Screen Shot 2018-09-03 at 11.21.30 AM.png[m
+	[31m../Screen Shot 2018-09-03 at 2.46.05 PM.png[m
+	[31m../Screen Shot 2018-09-04 at 8.27.53 PM.png[m
+	[31m../Screen Shot 2018-09-05 at 4.56.13 PM.png[m
+	[31m../Screen Shot 2018-09-08 at 3.35.37 PM.png[m
+	[31m../Screen Shot 2018-09-08 at 3.41.20 PM.png[m
+	[31m../cs186/[m
+	[31m../local3000fix.png[m
+	[31m../pics/[m
+	[31m../rake assets.png[m
+	[31m../reset heroku database.png[m
+	[31m../resumes/[m
+	[31m../vladstudio_moai_1280x960_signed-1024x768.jpg[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;~/Desktop/142MacBookPro: wilsonwang~/Desktop/142 $ git init
+Initialized empty Git repository in /Users/wilsonwang/Desktop/142/.git/
+]0;~/Desktop/142MacBookPro: wilsonwang~/Desktop/142 $ git add rem[K[K[K.[K[K[K[K[Kstatus
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.DS_Store[m
+	[31mhw/[m
+	[31mlabs/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;~/Desktop/142MacBookPro: wilsonwang~/Desktop/142 $ touch .gitignore
+]0;~/Desktop/142MacBookPro: wilsonwang~/Desktop/142 $ open .gitignore 
+]0;~/Desktop/142MacBookPro: wilsonwang~/Desktop/142 $ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.gitignore[m
+	[31mhw/[m
+	[31mlabs/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;~/Desktop/142MacBookPro: wilsonwang~/Desktop/142 $ git t[Kremote -v 
+]0;~/Desktop/142MacBookPro: wilsonwang~/Desktop/142 $ git remote -v [K[Ka[K[Kadd https://github.com/wilsonw926/ieor142 .git
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=<push|fetch>]
+                          set up remote as a mirror to push to or fetch from
+
+]0;~/Desktop/142MacBookPro: wilsonwang~/Desktop/142 $ git remote add https://github.com/wilsonw926/ieor142..git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-v [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[Kaddo[K origin https://github.com/wilsonw926/ ieor142.git
+]0;~/Desktop/142MacBookPro: wilsonwang~/Desktop/142 $ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.gitignore[m
+	[31mhw/[m
+	[31mlabs/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;~/Desktop/142MacBookPro: wilsonwang~/Desktop/142 $ git statusremote add origin https://github.com/wilsonw926/iieor142.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chttps://github.com/wilsonw926/ieor142.git[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-v [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+origin	https://github.com/wilsonw926/ieor142.git (fetch)
+origin	https://github.com/wilsonw926/ieor142.git (push)
+]0;~/Desktop/142MacBookPro: wilsonwang~/Desktop/142 $ git comm[K[K[K[Kac -m ""r"e"p"u"s"h" "h"w" "t"o"o"

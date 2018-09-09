@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1536535245022.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "736869927",
+    "id" : "F061DAA8",
+    "lastKnownWriteTime" : 1536535308,
+    "last_content_update" : 1536535308669,
+    "path" : "~/Desktop/142/hw/Homework1/hw1.R",
+    "project_path" : "hw1.R",
+    "properties" : {
+        "cursorPosition" : "133,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
