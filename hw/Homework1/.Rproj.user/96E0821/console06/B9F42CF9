@@ -330,3 +330,32 @@ Changes not staged for commit:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 ]0;~/Desktop/142MacBookPro: wilsonwang~/Desktop/142 $ git ac -m ""a"i"y"a"h"
+[master debb163] aiyah
+ 2 files changed, 123 insertions(+), 2 deletions(-)
+]0;~/Desktop/142MacBookPro: wilsonwang~/Desktop/142 $ git push -f origin master
+Counting objects: 53, done.
+Delta compression using up to 4 threads.
+Compressing objects:   2% (1/44)   Compressing objects:   4% (2/44)   Compressing objects:   6% (3/44)   Compressing objects:   9% (4/44)   Compressing objects:  11% (5/44)   Compressing objects:  13% (6/44)   Compressing objects:  15% (7/44)   Compressing objects:  18% (8/44)   Compressing objects:  20% (9/44)   Compressing objects:  22% (10/44)   Compressing objects:  25% (11/44)   Compressing objects:  27% (12/44)   Compressing objects:  29% (13/44)   Compressing objects:  31% (14/44)   Compressing objects:  34% (15/44)   Compressing objects:  36% (16/44)   Compressing objects:  38% (17/44)   Compressing objects:  40% (18/44)   Compressing objects:  43% (19/44)   Compressing objects:  45% (20/44)   Compressing objects:  47% (21/44)   Compressing objects:  50% (22/44)   Compressing objects:  52% (23/44)   Compressing objects:  54% (24/44)   Compressing objects:  56% (25/44)   Compressing objects:  59% (26/44)   Compressing objects:  61% (27/44)   Compressing objects:  63% (28/44)   Compressing objects:  65% (29/44)   Compressing objects:  68% (30/44)   Compressing objects:  70% (31/44)   Compressing objects:  72% (32/44)   Compressing objects:  75% (33/44)   Compressing objects:  77% (34/44)   Compressing objects:  79% (35/44)   Compressing objects:  81% (36/44)   Compressing objects:  84% (37/44)   Compressing objects:  86% (38/44)   Compressing objects:  88% (39/44)   Compressing objects:  90% (40/44)   Compressing objects:  93% (41/44)   Compressing objects:  95% (42/44)   Compressing objects:  97% (43/44)   Compressing objects: 100% (44/44)   Compressing objects: 100% (44/44), done.
+Writing objects:   1% (1/53)   Writing objects:   3% (2/53)   Writing objects:   5% (3/53)   Writing objects:   7% (4/53)   Writing objects:   9% (5/53)   Writing objects:  11% (6/53)   Writing objects:  13% (7/53)   Writing objects:  15% (8/53)   Writing objects:  16% (9/53)   Writing objects:  18% (10/53)   Writing objects:  20% (11/53)   Writing objects:  22% (12/53)   Writing objects:  24% (13/53)   Writing objects:  26% (14/53)   Writing objects:  28% (15/53)   Writing objects:  30% (16/53)   Writing objects:  32% (17/53)   Writing objects:  33% (18/53)   Writing objects:  35% (19/53)   Writing objects:  37% (20/53)   Writing objects:  39% (21/53)   Writing objects:  41% (22/53)   Writing objects:  43% (23/53)   Writing objects:  45% (24/53)   Writing objects:  47% (25/53)   Writing objects:  49% (26/53)   Writing objects:  50% (27/53)   Writing objects:  52% (28/53)   Writing objects:  54% (29/53)   Writing objects:  56% (30/53)   Writing objects:  58% (31/53)   Writing objects:  60% (32/53)   Writing objects:  62% (33/53)   Writing objects:  64% (34/53)   Writing objects:  66% (35/53)   Writing objects:  67% (36/53)   Writing objects:  69% (37/53)   Writing objects:  71% (38/53)   Writing objects:  73% (39/53)   Writing objects:  75% (40/53)   Writing objects:  77% (41/53)   Writing objects:  79% (42/53)   Writing objects:  81% (43/53)   Writing objects:  83% (44/53)   Writing objects:  84% (45/53)   Writing objects:  86% (46/53)   Writing objects:  88% (47/53)   Writing objects:  90% (48/53)   Writing objects:  92% (49/53)   Writing objects:  94% (50/53)   Writing objects:  96% (51/53)   Writing objects:  98% (52/53)   Writing objects: 100% (53/53)   Writing objects: 100% (53/53), 188.50 KiB | 0 bytes/s, done.
+Total 53 (delta 7), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/7)   [Kremote: Resolving deltas:  28% (2/7)   [Kremote: Resolving deltas:  57% (4/7)   [Kremote: Resolving deltas:  85% (6/7)   [Kremote: Resolving deltas: 100% (7/7)   [Kremote: Resolving deltas: 100% (7/7), done.[K
+To https://github.com/wilsonw926/ieor142.git
+ + d4cf3f4...debb163 master -> master (forced update)
+]0;~/Desktop/142MacBookPro: wilsonwang~/Desktop/142 $ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+
+	[31mmodified:   hw/Homework1/.Rproj.user/96E0821/console06/B9F42CF9[m
+	[31mmodified:   hw/Homework1/.Rproj.user/96E0821/console06/B9F42CF9.env[m
+	[31mmodified:   labs[m (modified content, untracked content)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mlabs copy/[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/Desktop/142MacBookPro: wilsonwang~/Desktop/142 $ git ac -m ""h"e"l"p"
