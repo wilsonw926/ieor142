@@ -10,36 +10,41 @@ install.packages("car")
 library(car) # for VIF
 
 # Load data:
-wine <- read.csv("wine_agg.csv") 
+elantra <- read.csv("Elantra142-Fall2018.csv") 
 
-str(wine)
-head(wine)
+str(elantra)
+head(elantra)
 
 # Plot scatter matrix
-ggscatmat(wine, columns = 2:9, alpha = 0.8)
+ggscatmat(elantra, columns = 0:8, alpha = 0.8)
 
 
 # split into training and test sets 
 
-wine.train <- filter(wine, Year <= 1985) 
-head(wine.train)
-tail(wine.train)
-wine.test <- filter(wine, Year > 1985)
+elantra.train <- filter(elantra, Year <= 2015) 
+head(elantra.train)
+tail(elantra.train)
+elantra.test <- filter(elantra, Year <= 2018 & Year >= 2016)
 
 # train the model
 #lm(y~x1+x2+...,data)
-mod1 <- lm(LogAuctionIndex ~ WinterRain + HarvestRain + GrowTemp + HarvestTemp + Age + FrancePop + USAlcConsump, 
-           data = wine.train)
+help(lm)
+mod1 <- lm(ElantraSales ~ ElantraQueries + CPI.All, data = elantra.train)
 summary(mod1)
+
+# A better model...
+# Remove FrancePop
+mod2 <- lm(ElantraSales ~ MonthFactor + ElantraQueries + CPI.All + CPI.Energy + Unemployment, data = elantra.train)
+summary(mod2)
+vif(mod2)
 
 # compute OSR^2
 
-winePredictions <- predict(mod1, newdata=wine.test)
+elantraPredictions <- predict(mod3, newdata=elantra.test)
 # this builds a vector of predicted values on the test set
-SSE = sum((wine.test$LogAuctionIndex - winePredictions)^2)
-SST = sum((wine.test$LogAuctionIndex - mean(wine.train$LogAuctionIndex))^2)
+SSE = sum((elantra.test$LogAuctionIndex - elantraPredictions)^2)
+SST = sum((elantra.test$LogAuctionIndex - mean(elantra.train$LogAuctionIndex))^2)
 OSR2 = 1 - SSE/SST
-
 
 # Confidence interval plot
 ggcoef(
@@ -53,37 +58,30 @@ ggcoef(
 
 vif(mod1)
 
-# A better model...
-# Remove FrancePop
-mod2 <- lm(LogAuctionIndex ~ WinterRain + HarvestRain + GrowTemp + HarvestTemp + Age + USAlcConsump, 
-           data = wine.train)
-summary(mod2)
-vif(mod2)
-
 # Remove USAlcConsump
 mod3 <- lm(LogAuctionIndex ~ WinterRain + HarvestRain + GrowTemp + HarvestTemp + Age, 
-           data = wine.train)
+           data = elantra.train)
 summary(mod3)
 vif(mod3)
 
 # Remove HarvestTemp
 mod4 <- lm(LogAuctionIndex ~ WinterRain + HarvestRain + GrowTemp + Age, 
-           data = wine.train)
+           data = elantra.train)
 summary(mod4)
 vif(mod4)
 
 
 # Categorical Variables
-wine.new <- read.csv("wine_disagg.csv")
-wine.new.train <- filter(wine.new, Year <= 1985)
-wine.new.test <- filter(wine.new, Year > 1985)
+elantra.new <- read.csv("elantra_disagg.csv")
+elantra.new.train <- filter(elantra.new, Year <= 1985)
+elantra.new.test <- filter(elantra.new, Year > 1985)
 
-str(wine.new)
-head(wine.new)
+str(elantra.new)
+head(elantra.new)
 
 # Regression use new data
 modOld <- lm(LogAuction ~ WinterRain + HarvestRain + GrowTemp + Age, 
-             data = wine.new.train)
+             data = elantra.new.train)
 summary(modOld)
 
 
@@ -96,38 +94,38 @@ summary(modOld)
 # xlab(labelx),ylab(labely) axis label
 # ggtitle(title)
 
-ggplot(wine.new, aes(x=Year, y=LogAuction, color=Winery)) + geom_line() +
+ggplot(elantra.new, aes(x=Year, y=LogAuction, color=elantrary)) + geom_line() +
   xlab("Vintage Year") + ylab("log(2015 Auction Price)")
 
 # Your turn: plot same data, make point plot,  name the axis and title.
-ggplot(wine.new, aes(x=Year, y=LogAuction, color=Winery)) + geom_point() +
+ggplot(elantra.new, aes(x=Year, y=LogAuction, color=elantrary)) + geom_point() +
   xlab("Vintage Year") + ylab("log(2015 Auction Price)")+ggtitle("MyTitle")
 
 
-# Two wineries
-wine.two <- filter(wine.new, Winery == "Cheval Blanc" |Winery == "Cos d'Estournel")
-ggplot(wine.two, aes(x=Year, y=LogAuction, color=Winery)) + geom_line() +
+# Two elantraries
+elantra.two <- filter(elantra.new, elantrary == "Cheval Blanc" |elantrary == "Cos d'Estournel")
+ggplot(elantra.two, aes(x=Year, y=LogAuction, color=elantrary)) + geom_line() +
   xlab("Vintage Year") + ylab("log(2015 Auction Price)")
 
-wine.two.train <- filter(wine.two, Year <= 1985)
-wine.two.test <- filter(wine.two, Year > 1985)
-head(wine.two.train)
-tail(wine.two.train)
-modTwo <- lm(LogAuction ~ Winery+WinterRain + HarvestRain + GrowTemp + Age, 
-             data = wine.two.train)
+elantra.two.train <- filter(elantra.two, Year <= 1985)
+elantra.two.test <- filter(elantra.two, Year > 1985)
+head(elantra.two.train)
+tail(elantra.two.train)
+modTwo <- lm(LogAuction ~ elantrary+WinterRain + HarvestRain + GrowTemp + Age, 
+             data = elantra.two.train)
 summary(modTwo)
 
-# To use a factor/categorical variable like Winery, 
+# To use a factor/categorical variable like elantrary, 
 # we don't actually have to do anything special 
 # We can just provide it to lm, and R will handle all
 # the logistics
-modNew <- lm(LogAuction ~ Winery + Age + WinterRain + HarvestRain + GrowTemp, 
-             data=wine.new.train)
+modNew <- lm(LogAuction ~ elantrary + Age + WinterRain + HarvestRain + GrowTemp, 
+             data=elantra.new.train)
 summary(modNew)
 
 # compute OSR^2
-wineNewPredictions <- predict(modNew, newdata=wine.new.test)
-SSE = sum((wine.new.test$LogAuction - wineNewPredictions)^2)
-SST = sum((wine.new.test$LogAuction - mean(wine.new.train$LogAuction))^2)
+elantraNewPredictions <- predict(modNew, newdata=elantra.new.test)
+SSE = sum((elantra.new.test$LogAuction - elantraNewPredictions)^2)
+SST = sum((elantra.new.test$LogAuction - mean(elantra.new.train$LogAuction))^2)
 OSR2 = 1 - SSE/SST
 
